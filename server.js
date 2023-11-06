@@ -73,7 +73,7 @@ const port = process.env.PORT || 3000;
 
 // connection server
 try {
-  await mongoose.connect(process.env.MONGO_ATLAS);
+  await mongoose.connect(process.env.MONGO_URL);
   app.listen(port, () => console.log(`Example app listening on port ${port}!`));
 
 } catch (error) {

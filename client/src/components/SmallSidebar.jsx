@@ -4,7 +4,6 @@ import { useDashboardContext } from './../pages/DashboardLayout';
 import Logo from './Logo';
 import NavLinks from './NavLinks';
 
-
 const SmallSidebar = () => {
   const { showSidebar, toggleSidebar } = useDashboardContext();
 
